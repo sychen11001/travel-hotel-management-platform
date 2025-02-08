@@ -133,7 +133,8 @@ function Uploader() {
         padding: "8px",
         borderRadius: "5px",
         textAlign: "center",
-        display: "flex",
+        display: "none", // 隐藏数据更新组件（模拟后端数据）
+        // display: "flex",
         flexDirection: "column",
         gap: "8px",
       }}
